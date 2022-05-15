@@ -2,6 +2,7 @@
 Projeto para avaliação do melhor veículo disponível para fazer entregas.
 
 Autor: Jonas Esteves
+
 E-mail: contato@jonasesteves.com
 
 Este projeto foi desenvolvido utilizando a IDE Intellij Community.
