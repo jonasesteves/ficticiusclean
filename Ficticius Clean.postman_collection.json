@@ -1,0 +1,181 @@
+{
+	"info": {
+		"_postman_id": "cd980aa2-056a-4497-99bd-3b474dd36ec7",
+		"name": "Ficticius Clean",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Cadastrar veículo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Cruze\",\r\n    \"marca\": \"Chevrolet\",\r\n    \"modelo\": \"LT Turbo 153cv\",\r\n    \"dataFabricacao\": \"2022-01-10\",\r\n    \"consumoCidade\": \"11.8\",\r\n    \"consumoRodovia\": \"16.5\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/ficticius-clean/api/veiculos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ficticius-clean",
+						"api",
+						"veiculos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consultar veículo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ficticius-clean/api/veiculos/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ficticius-clean",
+						"api",
+						"veiculos",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Excluir veículo",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ficticius-clean/api/veiculos/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ficticius-clean",
+						"api",
+						"veiculos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Atualizar veículo",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Fusion\",\r\n    \"marca\": \"Ford\",\r\n    \"modelo\": \"XYZ\",\r\n    \"dataFabricacao\": \"2021-04-19\",\r\n    \"consumoCidade\": 19,\r\n    \"consumoRodovia\": 14.1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/ficticius-clean/api/veiculos/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ficticius-clean",
+						"api",
+						"veiculos",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar veículo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ficticius-clean/api/veiculos?marca=ford",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ficticius-clean",
+						"api",
+						"veiculos"
+					],
+					"query": [
+						{
+							"key": "nome",
+							"value": "coro",
+							"disabled": true
+						},
+						{
+							"key": "marca",
+							"value": "ford"
+						},
+						{
+							"key": "modelo",
+							"value": "mid",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Calcular previsão de gastos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"precoCombustivel\": 8,\r\n    \"kmCidade\": 12,\r\n    \"kmRodovia\": 14\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/ficticius-clean/api/previsao-gastos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ficticius-clean",
+						"api",
+						"previsao-gastos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
