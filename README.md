@@ -6,7 +6,9 @@ O banco de dados utilizado é o H2 Database, com informações armazenadas em me
 
 Para rodar o projeto, basta executá-lo normalmente na IDE.
 Entretanto, também foram disponibilizados os arquivos JAR e WAR nos seguintes endereços:
+
 JAR: https://drive.google.com/file/d/1HZ38uciXIPEy6Ll0aPkFtfAPWu4EWx5u/view?usp=sharing
+
 WAR: https://drive.google.com/file/d/1izQt963AMS8hQpW0l9z809mxDKmxOBGu/view?usp=sharing
 
 Para executar o arquivo JAR, certifique-se de ter o Java instalado em seu computador. 
