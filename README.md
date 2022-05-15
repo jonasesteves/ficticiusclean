@@ -32,5 +32,7 @@ contendo todas as chamadas à API via Postman.
 O projeto possui 3 veículos pré-cadastrados para os testes, mas também é possível consultar um veículo, cadastrar novos veículos, atualizar um veículo existente, consultar veículos por características e apagar um veículo cadastrado. Para consultar uma previsão de gastos na API, deve-se fazer um POST no endereço http://localhost:8080/ficticius-clean/api/previsao-gastos passando um body com os seguintes parâmetros: 
 
 precoCombustivel
+
 kmCidade
+
 kmRodovia
