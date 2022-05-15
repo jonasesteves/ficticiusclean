@@ -1,5 +1,7 @@
 # ficticiusclean
 Projeto para avaliação do melhor veículo disponível para fazer entregas.
+Autor: Jonas Esteves
+E-mail: contato@jonasesteves.com
 
 Este projeto foi desenvolvido utilizando a IDE Intellij Community.
 O banco de dados utilizado é o H2 Database, com informações armazenadas em memória.
@@ -24,3 +26,9 @@ http://localhost:8080/ficticius-clean/swagger-ui.html
 No endereço acima, além da documentação, também é possível executar chamadas à API. Também foi 
 disponibilizado neste repositório um arquivo json "Ficticius Clean.postman_collection.json" 
 contendo todas as chamadas à API via Postman.
+
+O projeto possui 3 veículos pré-cadastrados para os testes, mas também é possível consultar um veículo, cadastrar novos veículos, atualizar um veículo existente, consultar veículos por características e apagar um veículo cadastrado. Para consultar uma previsão de gastos na API, deve-se fazer um POST no endereço http://localhost:8080/ficticius-clean/api/previsao-gastos passando um body com os seguintes parâmetros: 
+
+precoCombustivel
+kmCidade
+kmRodovia
