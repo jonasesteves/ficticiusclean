@@ -15,6 +15,9 @@ JAR: https://drive.google.com/file/d/1HZ38uciXIPEy6Ll0aPkFtfAPWu4EWx5u/view?usp=
 
 WAR: https://drive.google.com/file/d/1izQt963AMS8hQpW0l9z809mxDKmxOBGu/view?usp=sharing
 
+O projeto também está disponível publicamente no docker, no endereço:
+https://hub.docker.com/r/jonasesteves/ficticiusclean
+
 Para executar o arquivo JAR, certifique-se de ter o Java instalado em seu computador. 
 Em seguida, abra uma janela do Prompt ou Shell, navegue até a pasta onde baixou o arquivo jar
 e execute o seguinte comando:
